@@ -1,9 +1,50 @@
 body {
     margin: 0;
-    display: flex;
-    justify-content: center;
 }
 main{
-    width: 50%;
-    text-align: center;
+    margin: 10px 5px;
+    background: lightgray;
+    border-radius: 3px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
 }
+
+#img-div, #tribute-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0.16em 0.16em 0.16em 0.16em #fff;
+    border-radius: 0.3em;
+    width: 80%
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  #image{
+  background-color:#fff;
+   display:inline-block;
+   font-family:Roboto,sans-serif;
+   color:#a7a7a7;
+    font-size:11px;
+    width: 80%;
+    padding-top: 20px;
+  }
+
+  #img-caption{
+      margin: 20px
+  }
+
+  #img-caption{
+    padding: 20px;
+    line-height: 1.5;
+    text-align: center
+  }
+  #tribute-info{
+    display:inline-block;
+    width: 70%;
+    padding: 2em
+  }
